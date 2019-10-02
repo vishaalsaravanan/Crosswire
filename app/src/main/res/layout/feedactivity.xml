@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:background="#CEC2C2" android:padding="5dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:padding="4dp" android:background="@drawable/grad">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/profilepic"
+                    android:layout_width="50dp"
+                    android:layout_height="47dp"
+                    android:layout_weight="2"
+                    android:background="#F5FAFAFA"
+                    app:srcCompat="@drawable/ur" />
+
+            <TextView
+                    android:id="@+id/usernametxt"
+                    android:layout_width="191dp"
+                    android:layout_height="47dp"
+                    android:layout_weight="1"
+                    android:background="#F5FAFAFA"
+                    android:gravity="left"
+                    android:paddingBottom="25dp"
+                    android:text="Username"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/feeddate"
+                    android:layout_width="109dp"
+                    android:layout_height="47dp"
+                    android:layout_weight="1"
+                    android:background="#F5FAFAFA"
+                    android:gravity="right"
+                    android:paddingBottom="25dp"
+                    android:text="20-08-19"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/feedtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#F5FAFAFA"
+                    android:padding="2pt"
+                    android:text="Happy Birthday Dear !."
+                    android:textSize="24sp" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="299dp" app:srcCompat="@drawable/rating" android:id="@+id/feedimage"
+                    android:layout_weight="1" android:background="#F5FAFAFA"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:background="#F5FAFAFA">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/heart" android:id="@+id/imageView6"
+                    android:layout_weight="1"/>
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="4"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

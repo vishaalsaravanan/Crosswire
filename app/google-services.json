@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075742685695",
+    "firebase_url": "https://cresfeed.firebaseio.com",
+    "project_id": "cresfeed",
+    "storage_bucket": "cresfeed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075742685695:android:358b2162e412172c",
+        "android_client_info": {
+          "package_name": "com.example.feed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075742685695-hj16jtanjjia1gi1mdk6pvld22erf56e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feed",
+            "certificate_hash": "c01609fb79f3c4a9757693fcb7a5e7bd0781b993"
+          }
+        },
+        {
+          "client_id": "1075742685695-98k58qirofkt2st5s4aom9dris5omu7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHcbtYMCoqSRP34dwmRHEL6ydKVy6D-Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075742685695-98k58qirofkt2st5s4aom9dris5omu7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
